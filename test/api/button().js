@@ -22,7 +22,7 @@ describe('buttons - button()', function() {
 
 	describe('Functional tests - button-selector', function() {
 		dt.html('basic');
-		it('Check buttons activity on initialsation', function() {
+		it('Check buttons activity on initialisation', function() {
 			table = $('#example').DataTable({
 				dom: 'Bfrtip',
 				buttons: [
@@ -54,7 +54,7 @@ describe('buttons - button()', function() {
 
 	describe('Functional tests - button-group-selector', function() {
 		dt.html('basic');
-		it('Check buttons activity on initialsation', function() {
+		it('Check buttons activity on initialisation', function() {
 			table = $('#example').DataTable();
 
 			new $.fn.dataTable.Buttons(table, {

@@ -32,7 +32,7 @@ describe('buttons - button().active()', function() {
 
 	describe('Functional tests', function() {
 		dt.html('basic');
-		it('Check buttons activity on initialsation', function() {
+		it('Check buttons activity on initialisation', function() {
 			table = $('#example').DataTable({
 				dom: 'Bfrtip',
 				buttons: [{ text: 'first' }, { text: 'second' }, 'colvis']
