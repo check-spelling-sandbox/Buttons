@@ -1979,7 +1979,7 @@ Buttons.stripData = function (str, config) {
 	// Prevent Excel from running a formula
 	if (!config || config.escapeExcelFormula) {
 		if (str.match(/^[=+\-@\t\r]/)) {
-			console.log('matching and updateing');
+			console.log('matching and updating');
 			str = "'" + str;
 		}
 	}
