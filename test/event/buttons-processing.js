@@ -62,7 +62,7 @@ describe('buttons - buttons-processing', function() {
 		});
 	});
 
-	describe('Fuctional test', function() {
+	describe('Functional test', function() {
 		dt.html('basic');
 		it('Set stuff up', function() {
 			table = $('#example').DataTable({
