@@ -52,7 +52,7 @@ Fundamentally, each button is described by an object - this object is read by Bu
 
 All parameters (including these two, although to make the button useful they will need to be specified!) are optional, and each plug-in button type can also specify its own parameters (for example the `b-button pdfHtml5` button type uses `message` to display a custom message in the generated PDF).
 
-This example shows a single button that is specified using the `b-init buttons.buttons.text` and `b-init buttons.buttons.action` parameters only - it simply shows an alert when activated, but any Javascript function could be run when the button is activated.
+This example shows a single button that is specified using the `b-init buttons.buttons.text` and `b-init buttons.buttons.action` parameters only - it simply shows an alert when activated, but any JavaScript function could be run when the button is activated.
 
 ]]></info>
 

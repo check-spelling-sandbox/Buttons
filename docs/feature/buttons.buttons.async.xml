@@ -13,7 +13,7 @@
 	</type>
 
 	<description>
-		For actions that take a noticeable amount of time, you might want to show a processing indicator for the button that triggered the action. Buttons can do that using the `-api button().processing()` method, but it requires a break in the Javascript execution in order to be able to display the processing indicator on the page.
+		For actions that take a noticeable amount of time, you might want to show a processing indicator for the button that triggered the action. Buttons can do that using the `-api button().processing()` method, but it requires a break in the JavaScript execution in order to be able to display the processing indicator on the page.
 
 		This option provides exactly that option, specifying a number of milliseconds after the processing indicator is shown that the action should be executed.
 
