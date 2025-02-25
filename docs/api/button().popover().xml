@@ -36,7 +36,7 @@ Configuration object to control the specifics of the popover. It supports the fo
 	* `true` - Show above the button when visible
 	* `false` - Show below the button (default)
 * `-type number` `fade` Fade in / out time of the popover
-	* Number in milli-seconds.
+	* Number in milliseconds.
 		</parameter>
 		<returns type="DataTable.API">
 			DataTable API instance - no mutations.
