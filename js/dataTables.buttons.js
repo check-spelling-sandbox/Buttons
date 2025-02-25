@@ -523,7 +523,7 @@ $.extend(Buttons.prototype, {
 				!document.activeElement ||
 				document.activeElement === document.body
 			) {
-				// SUse a string of characters for fast lookup of if we need to
+				// Use a string of characters for fast lookup of if we need to
 				// handle this
 				var character = String.fromCharCode(e.keyCode).toLowerCase();
 
