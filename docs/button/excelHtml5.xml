@@ -72,7 +72,7 @@
 
 		On line two we get the XML document used for the spreadsheet's data. Then on line four a little bit of jQuery is used to select the correct cell's text node (the `r` attribute of the `-tag c` element is where the cell will be shown and the `-tag t` element is the text node). Then set the text for the cell. You could just as readily use DOM methods if you prefer.
 
-		We can use the a similar method to customize the styling of the cells in the document. This is done by adding the `s` attribute to the `-tag c` element(s), where the attribute value is the style index you wish to use. The XLSX file created by Buttons has a number of built in styles which are documented below.
+		We can use a similar method to customize the styling of the cells in the document. This is done by adding the `s` attribute to the `-tag c` element(s), where the attribute value is the style index you wish to use. The XLSX file created by Buttons has a number of built in styles which are documented below.
 
 		This is only a brief summary of how to customise the XLSX files. Full details of the XLSX file format and its features are outside the scope of this documentation. Please refer to the [Microsoft](https://msdn.microsoft.com/en-us/library/aa140066(office.10).aspx) and [Office Open XML](http://officeopenxml.com/SSstyles.php) documentation for details.
 
